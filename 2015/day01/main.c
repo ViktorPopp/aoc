@@ -19,7 +19,7 @@ int main()
     int current_floor = 0;
     int basement_char = 0;
 
-    for (size_t p = 0; p <= sz; p++)
+    for (size_t p = 0; p < sz; p++)
     {
         switch (input[p])
         {
